@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Neptuno Boilerplate</title>
+    <link rel="stylesheet" href="./css/app.min.css"/>
+  </head>
+  <body>
+    <div class="root">
+      <header class="header">
+        <h1 class="header__title">The Mind</h1>
+        <form class="form-search">
+          <input type="search" placeholder="Search..." list="search-sugestions" autofocus="autofocus" class="form-search__input"/>
+          <datalist id="search-sugestions">
+            <option>Notes</option>
+            <option>Movies</option>
+            <option>Book Chapters</option>
+          </datalist>
+        </form>
+        <button class="n-button">New </button>
+      </header>
+      <main class="main">
+        <div class="folder"><span class="folder__icon"></span><span class="folder__label">Livros</span></div>
+        <div class="folder"><span class="folder__icon"></span><span class="folder__label">Filmes</span></div>
+        <div class="folder"><span class="folder__icon"></span><span class="folder__label">Fotos</span></div>
+        <div class="folder"><span class="folder__icon"></span><span class="folder__label">Musicas</span></div>
+        <div class="folder"><span class="folder__icon"></span><span class="folder__label">Podcasts</span></div>
+        <div class="folder"><span class="folder__icon"></span><span class="folder__label">Notas</span></div>
+      </main>
+      <footer></footer>
+    </div>
+    <script src="./js/bundle.js" async="async"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title Neptuno Boilerplate
+		link(rel="stylesheet", href="./css/app.min.css")
+	body
+		div.root
+			include components/Header/Header.jade
+			main.main
+				include components/CreateNew/CreateNew.jade
+				include components/Folder/Folder.jade
+			footer
+		script(src="./js/bundle.js", async)
